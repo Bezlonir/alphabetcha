@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlpaBetcha</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./resources/css/reset.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/style.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-5 float-right">
+          <ul class="alphabet-picker">
+            <li class="">
+              <input id="a-letter" type="radio" name="preview-radio" class="radio-letter" value="a">
+              <label for="a-letter">
+                <span class="sr-only"></span>
+                <img src="./resources/images/a.jpg">
+              </label>
+            </li>
+            <li class="">
+              <input id="b-letter" type="radio" name="preview-radio" class="radio-letter" value="b">
+              <label for="b-letter">
+                <span class="sr-only"></span>
+                <img src="./resources/images/b.jpg">
+              </label>
+            </li>
+            <li class="">
+              <input id="c-letter" type="radio" name="preview-radio" class="radio-letter" value="c">
+              <label for="c-letter">
+                <span class="sr-only"></span>
+                <img src="./resources/images/c.jpg">
+              </label>
+            </li>
+            <li class="">
+              <input id="d-letter" type="radio" name="preview-radio" class="radio-letter" value="d">
+              <label for="d-letter">
+                <span class="sr-only"></span>
+                <img src="./resources/images/d.jpg">
+              </label>
+            </li>
+          </ul>
+        </div> <!-- end col-xs-5 float-right -->
+        <div id="big-letter" class="col-xs-6 float-left">
+        </div>
+      </div> <!-- end row -->
+    </div> <!-- end container-fluid-->
+
+    <script type="text/javascript" src="./resources/js/main.js"></script>
+  </body>
+</html>
