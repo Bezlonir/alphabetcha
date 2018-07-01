@@ -29,16 +29,22 @@ label {
 .alphabet-picker img {
   height: 40px;
   width: auto;
-  border: 1px solid white;
+  border: 1px solid rgba(255,255,255,0);
   cursor: pointer;
-  transition: border 0.5s;
+  transition: border 0.2s;
+}
+
+.sr-only {
+  height: 1px;
+  width: 1px;
+  margin: -1px;
 }
 
 .radio-letter {
   display:none;
 }
 
-.alphabet-picker input:checked + label {
+.alphabet-picker input:checked + label img {
   border: 1px solid blue;
 }
 
